@@ -1,0 +1,30 @@
+.btn--twitter,
+a.btn--twitter {
+  color: #fff;
+  padding : 20px ;
+  background-color: #9999ff;
+}
+.btn--twitter:hover,
+a.btn--twitter:hover {
+  color: #fff;
+  padding : 20px ;
+  background: #9999ff;
+}
+
+.btn--youtube,
+a.btn--youtube {
+  color: #fff;
+  padding : 20px ;
+  background-color: #ff0000;
+}
+.btn--youtube:hover,
+a.btn--youtube:hover {
+  color: #fff;
+  padding : 20px ;
+  background: #ff0000;
+}
+
+a.btn--radius {
+   border-radius: 100vh;
+   padding : 20px ;
+}
