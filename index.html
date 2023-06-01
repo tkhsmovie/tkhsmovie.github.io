@@ -7,6 +7,7 @@
    <title>Now Loading...</title>
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
    <link rel="stylesheet" href="styles/header.css">
+   <link rel="stylesheet" href="styles/countdown.css">
 </head>
 <body>
    <div class="container">
@@ -16,18 +17,25 @@
         </a>
         <nav class="pc-nav">
          <ul>
-            <li><a href="about.html">あばうと</a></li>
-            <li><a href="links.html">リンク集</a></li>
-            <li><a href="#">ComingSoon!</a></li>
-            <li><a href="#">ComingSoon!</a></li>
+            <a href="about.html" class="btn btn--header btn--radius">あばうと</a>
+            <a href="links.html" class="btn btn--header btn--radius">リンク集</a>
          </ul>
-      </nav>
+         </nav>
       </header>
     </div>
     <hr>
    <div class="container">
       <h2>Now Loading...</h2>
-      <wbr>
+         <div class="countdown-container">
+            <p>残り・・・</p>
+            <div class="time-container">
+               <p class="time"><span id="day"></span>日</p>
+               <p class="time"><span id="hour"></span>時間</p>
+               <p class="time"><span id="min"></span>分</p>
+               <p class="time"><span id="sec"></span>秒</p>
+            </div>
+         </div>
+      <script src="script/countdown.js"></script>
       <nobr><table border="0" cellspacing="0" cellpadding="0"><tbody><tr><td><a href="https://www.free-counter.jp/"><img src="https://www.f-counter.net/ani1/62/1685523397/" alt="アクセスカウンター" border="0" style="margin:0px; padding:0px; border:0px; vertical-align:bottom"></a></td>
       <td><a href="https://www.free-counter.jp/"><img src="https://www.f-counter.net/ani2/62/1685523397/" alt="アクセスカウンター" border="0" style="margin:0px; padding:0px; border:0px; vertical-align:bottom"></a></td></tr></tbody></table></nobr>
    </div>

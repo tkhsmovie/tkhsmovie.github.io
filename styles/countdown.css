@@ -1,0 +1,19 @@
+.countdown-container {
+  margin: 5rem;
+}
+
+.time-container {
+  display: flex;
+}
+
+.time {
+  margin: .2rem;
+  background-color: #e6e6ff;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+#day,#hour,#min,#sec {
+  font-size: 3rem;
+  margin-right: 1rem;
+}

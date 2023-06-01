@@ -5,3 +5,21 @@
 header {
    background-color: #e6e6ff;
 }
+
+.btn--header,
+a.btn--header {
+  color: #fff;
+  padding : 20px ;
+  background-color: #5050ff;
+}
+.btn--header:hover,
+a.btn--header:hover {
+  color: #fff;
+  padding : 20px ;
+  background: #5050ff;
+}
+
+a.btn--radius {
+   border-radius: 100vh;
+   padding : 20px ;
+}
