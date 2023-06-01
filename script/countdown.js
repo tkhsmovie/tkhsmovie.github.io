@@ -8,6 +8,16 @@ function countdown() {
   const goal = new Date(2023,7,27);
   const diff = goal.getTime() - now.getTime();
 
+  ctdn = document.getElementById("ctdn");
+  sugita = document.getElementById("sugita");
+  if(diff > 0){
+    ctdn.style.display = "block";
+    sugita.style.display = "none";
+  }else{
+    ctdn.style.display = "none";
+    sugita.style.display = "block";
+  }
+
   const calcDay = Math.floor(diff / 1000 / 60 / 60 / 24);
   const calcHour = Math.floor(diff / 1000 / 60 / 60) % 24;
   const calcMin = Math.floor(diff / 1000 / 60) % 60;  
@@ -17,6 +27,7 @@ function countdown() {
   hour.innerHTML = calcHour < 10 ? '0' + calcHour : calcHour;
   min.innerHTML = calcMin < 10 ? '0' + calcMin : calcMin;
   sec.innerHTML = calcSec < 10 ? '0' + calcSec : calcSec;
+
 }
 countdown();
 setInterval(countdown,1000);
