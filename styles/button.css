@@ -24,6 +24,19 @@ a.btn--youtube:hover {
   background: #ff0000;
 }
 
+.btn--line,
+a.btn--line {
+  color: #fff;
+  padding : 20px ;
+  background-color: #6eff6e;
+}
+.btn--line:hover,
+a.btn--line:hover {
+  color: #fff;
+  padding : 20px ;
+  background: #6eff6e;
+}
+
 a.btn--radius {
    border-radius: 100vh;
    padding : 20px ;
