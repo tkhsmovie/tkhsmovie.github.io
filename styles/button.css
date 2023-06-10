@@ -37,6 +37,19 @@ a.btn--line:hover {
   background: #6eff6e;
 }
 
+.btn--inst,
+a.btn--inst {
+  color: #fff;
+  padding : 20px ;
+  background-color: rgb(255, 90, 90)
+}
+.btn--inst:hover,
+a.btn--inst:hover {
+  color: #fff;
+  padding : 20px ;
+  background: rgb(255, 90, 90);
+}
+
 a.btn--radius {
    border-radius: 100vh;
    padding : 20px ;
