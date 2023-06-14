@@ -1,0 +1,25 @@
+* {
+   box-sizing: border-box;
+}
+
+header {
+   background-color: #e6e6ff;
+}
+
+.btn--menu,
+a.btn--menu {
+  color: #fff;
+  padding : 20px ;
+  background-color: #5050ff;
+}
+.btn--menu:hover,
+a.btn--menu:hover {
+  color: #fff;
+  padding : 20px ;
+  background: #5050ff;
+}
+
+a.btn--radius {
+   border-radius: 100vh;
+   padding : 20px ;
+}
