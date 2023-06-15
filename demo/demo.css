@@ -1,10 +1,10 @@
 a.btn--blue {
     color: #fff;
-    padding : 20px ;
+    padding: 20px;
     background-color: #0000ff;
   }
 
-  a.btn--radius {
-    border-radius: 100vh;
-    padding : 20px ;
+a.btn--radius {
+    border-radius: 100px;
+    padding: 20px;
  }
