@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>タイトル</title>
+</head>
+<body>
+  <p id="test" style="display: block;">テスト</p>
+  <input type="button" value="クリック" onclick="btnClick()" />
+  <script type="text/javascript">
+        function btnClick(){
+          test = document.getElementById("test");
+            if(test.style.display == "block"){
+              // noneで非表示
+              test.style.display = "none";
+            }else{
+              // blockで表示
+              test.style.display = "block";
+          }
+      }
+</script>
+</body>
+</html>
