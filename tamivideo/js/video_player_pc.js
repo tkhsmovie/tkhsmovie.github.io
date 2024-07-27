@@ -74,8 +74,8 @@
     }
 
     const currentOnChange = (e) => {
-        setCurrent(e.target.value);
         video.currentTime = video.duration * (inp_seekbar.value / 100)
+        setCurrent(e.target.value);
     }
 
     btn_forward.addEventListener('click', e => {

@@ -1,0 +1,55 @@
+#seekbar {
+    width: 640px;
+}
+
+#video_player {
+    width: 100%;
+}
+
+
+
+#back-sp {
+    width: 30%;
+    font-size: xx-large;
+}
+
+#play-sp {
+    width: 30%;
+    font-size: xx-large;
+}
+
+#pause-sp {
+    width: 30%;
+    font-size: xx-large;
+}
+
+#forward-sp {
+    width: 30%;
+    font-size: xx-large;
+}
+
+#seekbar-sp {
+    width: 70%;
+}
+
+/*
+#controls_pc {
+    @media screen and (max-width: 1280px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 1280px) {
+        display: inline;
+    }
+}
+
+#controls_sp {
+    @media screen and (max-width: 1280px) {
+        display: inline;
+    }
+
+    @media screen and (min-width: 1280px) {
+        display: none;
+    }
+}
+*/
